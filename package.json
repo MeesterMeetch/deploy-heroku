@@ -3,7 +3,7 @@
   "main": "server.js",
   "scripts": {
     "postinstall": "./node_modules/.bin/bower install",
-    "start": "node server.js"
+    "start": "node server.js",
   },
   "version": "0.0.1",
 "engines": {
