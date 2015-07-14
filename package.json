@@ -5,6 +5,9 @@
     "postinstall": "./node_modules/.bin/bower install",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "12.7"
+  },
   "dependencies": {
     "async": "^0.9.0",
     "bcryptjs": "^2.1.0",
