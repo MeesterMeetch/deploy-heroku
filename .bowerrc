@@ -2,5 +2,10 @@
   "directory": "app/vendor",
   "scripts": {
     "postinstall": "gulp wiredep"
-  }
+  },
+  "storage": {
+        "packages": ".bower-cache",
+        "registry": ".bower-registry"
+    },
+    "tmp": ".bower-tmp"
 }
